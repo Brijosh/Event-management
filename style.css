@@ -1,0 +1,12 @@
+*{
+    font-family: "Lexend", sans-serif;
+}
+#menu a{
+    padding: 16px;
+    font-weight: 500;
+}
+li{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}

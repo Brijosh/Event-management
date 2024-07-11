@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magic Moments</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+    <!-- fotawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+         colors: {
+                  'main':'#003366',
+                  'seccond': '#8cb8e5',
+                  'accent': '#4e47ff'
+                  }
+                }
+              }
+            }
+     </script>
+
+
+    <style>
+        .font-handwrite {
+            font-family: "Great Vibes", cursive;
+        }
+        .font-kaushan{
+            font-family: "Kaushan Script", cursive;
+        }
+    </style>
+    
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- FAV -->
+     <link rel="icon" href="./logos/fav (2).png" type="png/image">
+</head>
+<body class="bg-[#f4f8fc]">
+    <header class="sticky top-[0px] z-50">
+        <nav class=" w-full px-[80px] py-2 flex items-center justify-between bg-[rgb(255,255,255,0.800)] ">
+         <div><img src="./logos/Magic 2.png" width="160px" alt=""></div>
+         <div id="menu">
+                <a href="#">UPCOMING EVENTS</a>
+                <a href="#service">SERVICES</a>
+                <a href="#highlights">HIGHLIGHTS</a>
+                <a href="#about">ABOUT</a>
+                <a href="#">CONTACT</a>
+         </div>
+         <div id="log">
+            <button class="px-[20px] py-[10px] rounded-full  bg-[#8cb8e5] me-[20px] text-center font-[600]"><a href="./loginPage.html">Login</a></button>
+            <button class="px-[20px] py-[10px] rounded-full  bg-[#8cb8e5] me-[20px] text-center font-[600]"><a href="./signupPage.html">Sign Up</a></button>
+            <button class="px-[20px] py-[10px] rounded-full bg-[#003366] text-white text-center font-[600]"><a href="./booking.html">Book now</a></button>
+         </div>
+        </nav>
+    </header>
+    <section class="hero bg-[url('https://images.unsplash.com/photo-1605985687770-2e2e82c9b5f1?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] saturate-120 contrast- bg-fixed bg-center bg-cover h-[780px]  ">
+        <h1 class="font-kaushan text-[64px] text-[#003366] p-[80px] top-[15%] l absolute font-semibold">Creating Unforgettable Events</h1>
+        <h2 class="text-[28px] p-[80px]  top-[30%] l absolute  font-normal w-[900px]">At Magic Moments, we turn your dreams into reality with exceptional event management services.</h2>
+        <button class="border-0 w-[300px]  bg-[#003366] text-white mx-[80px] py-[16px] top-[54%] absolute">Plan Your Event</button>
+    </section>
+
+    
+    <section id="about" class="px-[80px]  py-[40px] bg-slate-200">
+        <h1 class="text-center  font-semibold font-kaushan text-[42px] text-[#003366]"> About Us</h1>
+         <h2 class="font-normal text-[18px] px-[60px] pt-[40px]">Welcome to Magic Moments, where we turn your visions into unforgettable experiences. Our dedicated team of professionals is passionate about creating events that exceed your expectations and leave lasting memories.</h2>
+        <div class="flex justify-around pb-[60px] items-center">
+            <div class="basis-3/6">
+               
+                <h2 class="pt-[40px] font-bold text-[28px]">Our Mission</h2>
+                <h2 class="pt-[20px] font-normal text-[18px]">Our mission is to provide top-notch event planning and management services tailored to your unique needs. Whether it's a birthday celebration, a photography session, a dream wedding, a corporate event, a workshop, or a music concert, we are committed to delivering excellence in every detail.</h2>
+
+                <h2 class="pt-[40px] font-bold text-[28px]">Our Vision</h2>
+                <h2 class="pt-[20px] font-normal text-[18px]">We envision a world where every event is a seamless and magical experience. Our goal is to become the go-to destination for all your event planning needs, known for our creativity, reliability, and outstanding customer service.</h2>
+            </div>
+            <div class="basis-2/6 pt-[50px]"><video src="./event.mp4" autoplay loop muted  ></video></div>
+        </div>  
+        <div class="flex justify-around pb-[60px] items-center">
+            <div class="basis-2/6 pt-[5018pxpx]"><video src="./event 2.mp4" autoplay loop muted  ></video></div>
+            <div class="basis-3/6">
+               
+                <h2 class="pt-[40px] font-bold text-[28px]">Why Choose Us?</h2>
+                <ul  class="pt-[20px]">
+                    <li class="font-normal text-[18px]"><b>Experience and Expertise:</b> With years of experience in the event management industry, we have the skills and knowledge to handle events of all sizes and types.</li>
+                    <li class="font-normal text-[18px]"><b>Personalized Service:</b> We believe in personalizing each event to reflect your style and preferences, ensuring a unique and special experience.</li>
+                    <li class="font-normal text-[18px]"><b>Attention to Detail:</b> Our meticulous attention to detail ensures that no aspect of your event is overlooked, guaranteeing a flawless execution.</li>
+                    <li class="font-normal text-[18px]"><b>Passionate Team:</b> Our team is passionate about what we do and is dedicated to making your event a success. We go above and beyond to ensure your satisfaction.</li>
+                </ul>
+            </div>
+            
+        </div>
+            
+</section>
+<section id="service" class="pb-[80px]">
+        <h1 class="text-center p-[60px] font-semibold font-kaushan text-[42px] text-[#003366]">Our Signature Experiences</h1>
+        <div class="flex justify-around">
+            <div class="basis-1/4">
+                <img src="https://images.unsplash.com/photo-1562967005-a3c85514d3e9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class=" ">
+                <h1 class="pt-3 text-center text-[20px] font-bold">Birthday Parties</h1>
+                <h4 class=" text-center font-light">From themed decorations to exciting entertainment, we create memorable birthday parties that delight guests of all ages. Let us handle the details so you can enjoy the celebration.</h4>
+            </div>
+            <div class="basis-1/4">
+                <img src="https://images.unsplash.com/photo-1597378080785-fc16687451ce?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class=" ">
+                <h1 class="pt-3 text-center text-[20px] font-bold">Photography Sessions</h1>
+                <h4 class=" text-center font-light">Our talented photographers specialize in creating stunning visual memories. Whether it's a family portrait, engagement session, or special event, we ensure every photo tells a story.</h4>
+            </div>
+            <div class="basis-1/4">
+                <img src="https://images.unsplash.com/photo-1504993945773-3f38e1b6a626?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class=" ">
+                <h1 class="pt-3 text-center text-[20px] font-bold">Weddings</h1>
+                <h4 class=" text-center font-light">We provide full-service wedding planning to make your special day truly magical. From venue selection and elegant décor to personalized catering and seamless coordination, we bring your vision to life.</h4>
+            </div>
+            
+            
+        </div>
+        <div class="flex justify-around mt-[80px] ">
+        
+            <div class="basis-1/4">
+                <img src="https://images.unsplash.com/photo-1560523160-754a9e25c68f?q=80&w=2036&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class=" ">
+                <h1 class="pt-3 text-center text-[20px] font-bold">Elite Corporate Gatherings</h1>
+                <h4 class=" text-center font-light">Our expertise in managing corporate events ensures a flawless experience. We handle everything from conferences and product launches to team-building activities, allowing you to focus on your business goals.</h4>
+            </div>
+            <div class="basis-1/4">
+                <img src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class=" ">
+                <h1 class="pt-3 text-center text-[20px] font-bold"> Workshops & Seminars</h1>
+                <h4 class=" text-center font-light">We organize impactful workshops and seminars designed to inspire and educate. Our services include venue setup, logistical support, and providing the necessary equipment to facilitate a productive and engaging experience.</h4>
+            </div>
+            <div class="basis-1/4">
+                <img src="https://images.unsplash.com/photo-1583795484071-3c453e3a7c71?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class=" ">
+                <h1 class="pt-3 text-center text-[20px] font-bold"> Music Concerts</h1>
+                <h4 class=" text-center font-light">From intimate gigs to grand performances, we bring the magic of live music to your audience. Our comprehensive services cover everything from stage setup and sound engineering to artist management and event promotion, ensuring an unforgettable musical experience.</h4>
+            </div>
+        </div>
+    </section>
+        
+    <section id="highlights">
+        <h1 class="text-center p-[60px] font-semibold font-kaushan text-[42px] text-[#003366]">Event Highlights</h1>
+        <div class="flex justify-evenly">
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1591604466107-ec97de577aff?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1544078751-58fee2d8a03b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1563292750-123bae0145d7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+        </div>
+
+        <div class=" pt-[60px] flex justify-evenly">
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1556125574-d7f27ec36a06?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1505114643939-2b179ccc6430?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1511348547654-09ef00c65feb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1584629748167-730825741a5e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+        </div>
+
+        <div class=" pt-[60px] flex justify-evenly">
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1536293283170-b4604bbe272f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1713393123154-b7320b68edeb?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1490971774356-7fac993cc438?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1616844017898-0965a00fac05?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+        </div>
+
+        <div class=" pt-[60px] flex justify-evenly">
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1598387993281-cecf8b71a8f8?q=80&w=2076&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1508997449629-303059a039c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+            <div class="basis-1/5 group relative w-64 h-64"><img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" class="w-full h-full object-cover">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity">
+                    <span class="text-white text-lg">Wedding</span>
+                  </div>
+            </div>
+        </div>
+        
+    </section>
+
+   <footer class="px-[80px] pt-[80px] pb-[20px] flex justify-between">
+    <div>
+        <img src="https://i.postimg.cc/d3smHBsy/Magic-2.png" class="" width="200px">
+        
+
+        <div class="address mt-[20px] px-3">
+            <h6 class="pb-2 ">Magic Moments</h6>
+            <h6 class="pb-2 font-light"> 123 streetview ave,</h6>
+            <h6 class="pb-2 font-light">Fort Kochi, Ernakulam.</h6>
+            <h6 class="pb-2 font-light">Kerala,IN</h6>
+        </div>
+        <div class="py-[20px]">
+            <i class="fa-brands fa-square-x-twitter text-[25px] px-3 text-[#003366]"></i>
+            <i class="fa-brands fa-facebook-messenger text-[25px] px-3 text-[#003366]"></i>
+            <i class="fa-brands fa-square-instagram text-[25px] px-3 text-[#003366]"></i>
+            <i class="fa-brands fa-linkedin text-[25px] px-3 text-[#003366]"></i>
+        </div>
+    </div>
+    <div>
+        <ul type="none">
+            <li class="font-[700] text-[20px] text-[#003366]">Reach Out To Us</li>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Plan an event</a></li>
+            <li><a href="#">Get an Estimate</a></li>
+            
+        </ul>
+    </div>
+    <div>
+        <ul type="none">
+            <li class="font-[700] text-[20px] text-[#003366]">About Magic Moments</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Highlights</a></li>
+            <li><a href="#">Testimonials</a></li>
+            
+        </ul>
+    </div>
+    <div>
+        <ul type="none">
+            <li class="font-[700] text-[20px] text-[#003366]">Know More</li>
+            <li><a href="#">Event Calander</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Terms & Conditons</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            
+        </ul>
+    </div>
+    <div class="">
+        <div class="">
+            <h3 class="font-[700] text-[20px] text-[#003366]">Subscribe to our Newsletter</h3>
+            <div class="flex flex-col">
+                <input type="text" class="w-[300px] bg-transparent p-[8px] mt-5 border-b-2 border-t-none border-[#003366] font-light outline-0" placeholder="Email Address">
+                <button class="w-[300px] p-[8px] mt-4 text-white bg-[#003366]">Subscribe</button>
+            </div>
+            
+        </div>
+        <div class="mt-[160px]">
+            <h6 class="font-light text-[12px] text-zinc-600">© 2024 MAGIC MOMENTS EM - All Rights Reserved</h6>
+        </div>
+        
+    </div>
+    
+   </footer>
+    
+</body>
+</html>
