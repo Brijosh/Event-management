@@ -1,6 +1,8 @@
 *{
     margin: 0px;
     padding: 0px;
+    font-family: "Lexend", sans-serif;
+
 }
 
 
@@ -11,10 +13,7 @@
 }
 /* <!-- 1st secction --> */
 
-body{
-    margin-top: 30px;
-    background-size: cover;
-}
+
 #hero{
     /* background-image: url(https://media.istockphoto.com/id/530427836/photo/wooden-table-top-on-blue-sea-and-white-sand-beach.jpg?s=1024x1024&w=is&k=20&c=WlGloaTUegfTy6UFiCXcviDD4ay7E97VKQ5bPPcBuf0=); */
 /* 
@@ -25,12 +24,12 @@ body{
     /* filter: blur(1px); */
 }
 
-.row{
+/* .row{
     display: flex;
     /* width: 100%; */
     
-    padding-left: 50px;
-}
+    /* padding-left: 50px;
+} */
 
 .col button{
     font-size: 15px;
@@ -40,12 +39,12 @@ body{
     background-color: rgb(24, 49, 104);
     border-radius: 20px;
     padding: 10px;
-}
-.row h1{
+} */
+/* .row h1{
     font-size:50px;
     
     color: rgb(24, 49, 104);
-}
+} */
 .row p{
     font-size: 20px;
     padding-top: 15px;
